@@ -50,6 +50,11 @@ ________________________________________________________________________________
 > Uma outra peculiaridade do Vue são os chamados **Single File Components**
 > O Vue não é preciso trabalhar com outras bibliotecas em conjunto
 
+> HTML
+` <div id = "app"> `
+    `<h1>{{ product }}</h1>`
+`</div>` 
+
 ## Conceitos de reatividade e progressividade - Vue.js
 
 > REATIVIDADE: Diz respeito a arquitetura, que atualiza a camada visual cada vez que se tem uma mudança de estado 
