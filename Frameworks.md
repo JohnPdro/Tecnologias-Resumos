@@ -41,21 +41,21 @@ ________________________________________________________________________________
 
 ## O que é o Vue.js?
 
- É um framework JavaScript para a criação de componentes de interface de usuario.
+> É um framework JavaScript para a criação de componentes de interface de usuario.
 
- Também é Single Page Aplication que são aplicações de pagina unica.
+> Também é Single Page Aplication que são aplicações de pagina unica.
 
- Referenciado como um framework **reativo** e **progressivo**.
+> Referenciado como um framework **reativo** e **progressivo**.
 
- É possivel utilizar o Vue em toda aplicação e em partes da aplicação.
+> É possivel utilizar o Vue em toda aplicação e em partes da aplicação.
 
- Possui uma sintax simples.
+> Possui uma sintax simples.
 
- No Vue é bastante utilizado o conceito de **componentização**.
+> No Vue é bastante utilizado o conceito de **componentização**.
 
- Uma outra peculiaridade do Vue são os chamados **Single File Components**.
+> Uma outra peculiaridade do Vue são os chamados **Single File Components**.
 
- O Vue não é preciso trabalhar com outras bibliotecas em conjunto.
+> O Vue não é preciso trabalhar com outras bibliotecas em conjunto.
 
  
 ``` 
