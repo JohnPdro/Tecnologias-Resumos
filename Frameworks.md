@@ -51,9 +51,11 @@ ________________________________________________________________________________
 > O Vue não é preciso trabalhar com outras bibliotecas em conjunto
 
 > HTML
-` <div id = "app"> `
-    `<h1>{{ product }}</h1>`
-`</div>` 
+``` 
+<div id = "app"> 
+    <h1>{{ product }}</h1>
+</div> 
+```
 
 ## Conceitos de reatividade e progressividade - Vue.js
 
