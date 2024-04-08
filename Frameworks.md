@@ -50,8 +50,9 @@ ________________________________________________________________________________
 > Uma outra peculiaridade do Vue são os chamados **Single File Components**
 > O Vue não é preciso trabalhar com outras bibliotecas em conjunto
 
-> HTML
+ 
 ``` 
+// HTML
 <div id = "app"> 
     <h1>{{ product }}</h1>
 </div> 
