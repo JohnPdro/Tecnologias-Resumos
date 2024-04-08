@@ -70,34 +70,28 @@ let app = new Vue({
 
 ## Tags
 
-> v-bind = uilizado para vincular o valor de uma propriedade do objeto data
+**v-bind** = Uilizado para vincular o valor de uma propriedade do objeto data
 
-> Exemplo:
-```
-// HTML
-    <div id="app">
-        <div class="product">
+**v-if/v-else** = Fazem a validação "se", "senão"
 
-            <div class="product-image">
-                <img v-bind:src="image"> 
-            </div>
+**v-for** = Lembra o forEach
 
-            <div class="product-info">
-                <h1>{{ product }}</h1>
-            </div>
+**v-on:click** = Realiza algo qundo clicado
 
-        </div>
-    </div>
+**key** = 
 
-//JS 
-    let app = new Vue({ 
-        el: '#app', 
-        data: { 
-            product: 'Socks',
-            image: './img/meia1.jpg',
-    }
-})
-```
+**@mouseover** = Realiza algo quando o mouse passa em cima
+
+**@click** = Realiza algo quando clicado
+
+**@submit** = Envia informações de um formulário
+
+**@keyup.enter** = É quando a tecla do formulário é liberada 
+
+**.enter** = Tags como essa são chamadas de Modifier 
+
+
+
 
 ## Conceitos de reatividade e progressividade - Vue.js
 
