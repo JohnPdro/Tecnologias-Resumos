@@ -68,6 +68,37 @@ let app = new Vue({
 })
 ```
 
+## Tags
+
+> v-bind = uilizado para vincular o valor de uma propriedade do objeto data
+
+> Exemplo:
+```
+// HTML
+    <div id="app">
+        <div class="product">
+
+            <div class="product-image">
+                <img v-bind:src="image"> 
+            </div>
+
+            <div class="product-info">
+                <h1>{{ product }}</h1>
+            </div>
+
+        </div>
+    </div>
+
+//JS 
+    let app = new Vue({ // Isso cria uma instância new Vue, na qual é a raiz(root) da aplicação do Vue
+        el: '#app', // A propriedade "el" especifica onde será aplicada a instância no caso id="app"
+        data: { // data também é uma propriedade que contem outra propriedade que é product que dá valor a instancia
+            product: 'Socks',
+            image: './img/meia1.jpg',
+    }
+})
+```
+
 ## Conceitos de reatividade e progressividade - Vue.js
 
 > REATIVIDADE: Diz respeito a arquitetura, que atualiza a camada visual cada vez que se tem uma mudança de estado 
