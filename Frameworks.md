@@ -90,9 +90,9 @@ let app = new Vue({
     </div>
 
 //JS 
-    let app = new Vue({ // Isso cria uma instância new Vue, na qual é a raiz(root) da aplicação do Vue
-        el: '#app', // A propriedade "el" especifica onde será aplicada a instância no caso id="app"
-        data: { // data também é uma propriedade que contem outra propriedade que é product que dá valor a instancia
+    let app = new Vue({ 
+        el: '#app', 
+        data: { 
             product: 'Socks',
             image: './img/meia1.jpg',
     }
