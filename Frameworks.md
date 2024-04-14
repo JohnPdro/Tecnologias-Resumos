@@ -8,19 +8,17 @@
 
 ## Frameworks Front-End
 
-Bootstrap
-
 Foundation
 
 Materialize 
 
 Angular
 
-Vue :U+FE0F: 
+Vue ✔️
 
 Nuxt (Framework feito em Vue)
 
-Astro
+Astro ✔️
 
 Svelt
 
