@@ -8,118 +8,139 @@
 
 ## Frameworks Front-End
 
-> Bootstrap
-> Foundation
-> Materialize 
-> Angular
-> Vue
-> Nuxt (Framework feito em Vue)
-> Astro
-> Svelt
-> Nue
-> Tailwind (CSS)
-> Bootstrap (CSS)
-> Bulma (CSS)
+Bootstrap
+
+Foundation
+
+Materialize 
+
+Angular
+
+Vue
+
+Nuxt (Framework feito em Vue)
+
+Astro
+
+Svelt
+
+Nue
+
+Tailwind (CSS)
+
+Bootstrap (CSS)
+
+Bulma (CSS)
+
 
 
 
 ## Framewors para Back-End
 
-> Laravel (PHP)
-> Codelgniter (PHP)
-> Rail (Ruby)
-> .NET Framework (Plataforma .NET)
-> Django (Python)
-> Express (Node.js)
-> Ionic (Aplicativos Mobile)
-> Struts (Java)
+ Laravel (PHP)
+
+ Codelgniter (PHP)
+
+ Rail (Ruby)
+
+ .NET Framework (Plataforma .NET)
+
+ Django (Python)
+
+ Express (Node.js)
+
+ Ionic (Aplicativos Mobile)
+
+ Struts (Java)
 ______________________________________________________________________________________________
 
 
-
-# Vue.js
-
-## O que é o Vue.js?
-
-> É um framework JavaScript para a criação de componentes de interface de usuario.
-> Também é Single Page Aplication que são aplicações de pagina unica.
-> Referenciado como um framework **reativo** e **progressivo**.
-> É possivel utilizar o Vue em toda aplicação e em partes da aplicação.
-> Possui uma sintax simples.
-> No Vue é bastante utilizado o conceito de **componentização**.
-> Uma outra peculiaridade do Vue são os chamados **Single File Components**.
-> O Vue não é preciso trabalhar com outras bibliotecas em conjunto.
-
- 
-``` 
-// HTML
-<div id = "app"> 
-    <h1>{{ product }}</h1>
-</div> 
-```
-
-```
-//JS
-let app = new Vue({
-    el: '#app',
-    data: {
-        product: 'Socks'
-    }
-})
-```
-
-## Tags
-
-**v-bind** = Uilizado para vincular o valor de uma propriedade do objeto data
-
-**v-if/v-else** = Fazem a validação "se", "senão"
-
-**v-for** = Lembra o forEach
-
-**v-on:click** = Realiza algo qundo clicado
-
-**key** = 
-
-**@mouseover** = Realiza algo quando o mouse passa em cima
-
-**@click** = Realiza algo quando clicado
-
-**@submit** = Envia informações de um formulário
-
-**@keyup.enter** = É quando a tecla do formulário é liberada 
-
-**.enter** = Tags como essa são chamadas de Modifier 
-
-
-
-
-## Conceitos de reatividade e progressividade - Vue.js
-
-> REATIVIDADE: Diz respeito a arquitetura, que atualiza a camada visual cada vez que se tem uma mudança de estado 
-> O HTML será atualizado toda vez que o valor de uma variavel de um componente no Vue for alterada
-
-> PROGRESSIVIDADE: Significa que foi projetado para ser altamente adapitavel a outros frameworks e bibliotecas 
-> É possivel utilizar o Vue.js em apenas uma parte da aplicação que já está desenvolvido 
-
-## Conceito de Componentização - Vue.js
-
-> É a divisão do código em partes menores, cada uma focada em um componente específico
-> A componentização traz benefícios como a diminuição da complexidade do código, facilitando sua manutenção e reutilização
-
-## Single File Components - Vue.js
-
-> Realiza a separação de cada componente dentro de um arquivo com extenção .vue
-> Para realizar a leitura desses arquivos é necessario um webpack para transformar o código em JavaScript
-
-## Links
-
-([Link Documentação Vue.js](https://vuejs.org/))
-
-> Canal - Código Fonte TV
-([Link Vídeo Auxiliar](https://youtu.be/bEl6yN3vd-U?si=XbQ9WUJbRrxPfMKs))
-
-> Canal - Caraline
-([Link Vídeo Auxiliar](https://youtu.be/1W35ITPUp6Y?si=l8gAnMSuwsHzUGJO))
+<details>
+    
+    <summary># Vue.js</summary>
+    
+    ## O que é o Vue.js?
+    
+    > É um framework JavaScript para a criação de componentes de interface de usuario.
+    > Também é Single Page Aplication que são aplicações de pagina unica.
+    > Referenciado como um framework **reativo** e **progressivo**.
+    > É possivel utilizar o Vue em toda aplicação e em partes da aplicação.
+    > Possui uma sintax simples.
+    > No Vue é bastante utilizado o conceito de **componentização**.
+    > Uma outra peculiaridade do Vue são os chamados **Single File Components**.
+    > O Vue não é preciso trabalhar com outras bibliotecas em conjunto.
+    
+    
+    ```
+    // HTML
+    <div id = "app">
+        <h1>{{ product }}</h1>
+    </div>
+    ```
+    
+    ```
+    //JS
+    let app = new Vue({
+        el: '#app',
+        data: {
+            product: 'Socks'
+        }
+    })
+    ```
+    
+    ## Tags
+    
+    **v-bind** = Uilizado para vincular o valor de uma propriedade do objeto data
+    
+    **v-if/v-else** = Fazem a validação "se", "senão"
+    
+    **v-for** = Lembra o forEach
+    
+    **v-on:click** = Realiza algo qundo clicado
+    
+    **key** =
+    
+    **@mouseover** = Realiza algo quando o mouse passa em cima
+    
+    **@click** = Realiza algo quando clicado
+    
+    **@submit** = Envia informações de um formulário
+    
+    **@keyup.enter** = É quando a tecla do formulário é liberada
+    
+    **.enter** = Tags como essa são chamadas de Modifier
+    
+    
+    
+    
+    ## Conceitos de reatividade e progressividade - Vue.js
+    
+    > REATIVIDADE: Diz respeito a arquitetura, que atualiza a camada visual cada vez que se tem uma mudança de estado
+    > O HTML será atualizado toda vez que o valor de uma variavel de um componente no Vue for alterada
+    
+    > PROGRESSIVIDADE: Significa que foi projetado para ser altamente adapitavel a outros frameworks e bibliotecas
+    > É possivel utilizar o Vue.js em apenas uma parte da aplicação que já está desenvolvido
+    
+    ## Conceito de Componentização - Vue.js
+    
+    > É a divisão do código em partes menores, cada uma focada em um componente específico
+    > A componentização traz benefícios como a diminuição da complexidade do código, facilitando sua manutenção e reutilização
+    
+    ## Single File Components - Vue.js
+    
+    > Realiza a separação de cada componente dentro de um arquivo com extenção .vue
+    > Para realizar a leitura desses arquivos é necessario um webpack para transformar o código em JavaScript
+    
+    ## Links
+    
+    ([Link Documentação Vue.js](https://vuejs.org/))
+    
+    > Canal - Código Fonte TV
+    ([Link Vídeo Auxiliar](https://youtu.be/bEl6yN3vd-U?si=XbQ9WUJbRrxPfMKs))
+    
+    > Canal - Caraline
+    ([Link Vídeo Auxiliar](https://youtu.be/1W35ITPUp6Y?si=l8gAnMSuwsHzUGJO))
+</details>
 ______________________________________________________________________________________________
 
 
