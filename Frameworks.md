@@ -16,7 +16,7 @@ Materialize
 
 Angular
 
-Vue :U+2714
+Vue :U+2714: 
 
 Nuxt (Framework feito em Vue)
 
