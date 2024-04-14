@@ -2,9 +2,9 @@
 
 ## O que é Biblioteca?
 
-> Conjunto de implementações(Funções, classes, procedimentos e etc...)
+> Conjunto de implementações(Funções, classes, procedimentos, etc...)
 > Com a biblioteca podemos escrever códigos menores e mais organizados
-> Ao usar uma biblioteca, um programa passa a ser capaz de executar suas funções sem que seja necesssário implementá-las no programa em si.
+> Ao usar uma biblioteca, um programa passa a ser capaz de executar suas funções sem que seja necessário implementá-las no programa em si.
 
 ## Exemplos de Bibliotecas
 

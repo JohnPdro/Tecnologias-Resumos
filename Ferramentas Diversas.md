@@ -1,7 +1,7 @@
 # Ferramentas
 
 > Como o nome já diz são ferramentas, com diversas funções
-> Compilação de código, folha de estilo, gerenciador de pactes e etc...
+> Compilação de código, folha de estilo, gerenciador de pactes, etc...
 
 ## Exemplos de ferramentas
 
