@@ -86,6 +86,14 @@ let app = new Vue({
 
 ## Tags
 
+**Data** = O data é o local onde será declarado as variáveis utilizadas ao longo da criação do componete
+
+**Watch** = Executa algo quando a variavel que é referencida sofre alguma alteração
+
+**Computed** = São funções computadas ou seja, sempre que alguma dependencia(variaveis dentro da função) sofre alteração, a função é ativa novamente, trocando os valores antigos pelos novos  
+
+______________________________________________________________________________________________
+
 **v-bind** = Utilizado para vincular o valor de uma propriedade do objeto data.
 
 **v-if/v-else** = Fazem a validação "se", "senão"
@@ -107,6 +115,11 @@ let app = new Vue({
 **.enter** = Tags como essa são chamadas de Modifier 
 
 
+
+## Two-Way Data Biding
+
+> É uma caracteristica do Vue, que sincroniza a interface com o model.
+> Sempre que há uma alteração na interface havera alteração no model e vice versa.
 
 
 ## Conceitos de reatividade e progressividade - Vue.js
